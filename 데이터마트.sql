@@ -1,3 +1,4 @@
+aws S3의 external_table을 이용해서 쿼리한번 돌려보기
 select SUBSTRING(event_time,0,11)
 from ondb_bi.jy_test_ecomerce_data
 group by SUBSTRING(event_time,0,11)
